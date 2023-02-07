@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Dotter: 文字に疲れた全ての人へ",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "content-script.js"
+            ]
+        }
+    ]
+}
